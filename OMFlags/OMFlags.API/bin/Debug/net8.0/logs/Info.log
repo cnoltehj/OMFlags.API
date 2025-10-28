@@ -1,0 +1,25 @@
+2025-10-28 20:46:27.9471|WARN|LuckyPennySoftware.MediatR.License|You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-10-28 20:46:27.9902|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|Start processing HTTP request GET https://restcountries.com/v3.1/all?fields=name,flags
+2025-10-28 20:46:28.0001|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Sending HTTP request GET https://restcountries.com/v3.1/all?fields=name,flags
+2025-10-28 20:46:29.0272|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Received HTTP response headers after 1014.4878ms - 200
+2025-10-28 20:46:29.0555|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|End processing HTTP request after 1075.3567ms - 200
+2025-10-28 20:46:43.4391|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|Start processing HTTP request GET https://restcountries.com/v3.1/name/South%20Africa?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:46:43.4391|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Sending HTTP request GET https://restcountries.com/v3.1/name/South%20Africa?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:46:43.6661|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Received HTTP response headers after 224.4683ms - 200
+2025-10-28 20:46:43.6661|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|End processing HTTP request after 229.3269ms - 200
+2025-10-28 20:48:18.8426|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|Start processing HTTP request GET https://restcountries.com/v3.1/all?fields=name,flags
+2025-10-28 20:48:18.8585|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Sending HTTP request GET https://restcountries.com/v3.1/all?fields=name,flags
+2025-10-28 20:48:19.8677|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Received HTTP response headers after 1000.4545ms - 200
+2025-10-28 20:48:19.8677|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|End processing HTTP request after 1034.137ms - 200
+2025-10-28 20:48:27.3178|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|Start processing HTTP request GET https://restcountries.com/v3.1/name/China?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:48:27.3204|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Sending HTTP request GET https://restcountries.com/v3.1/name/China?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:48:27.5498|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Received HTTP response headers after 224.9921ms - 200
+2025-10-28 20:48:27.5498|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|End processing HTTP request after 233.1466ms - 200
+2025-10-28 20:48:37.8828|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|Start processing HTTP request GET https://restcountries.com/v3.1/name/Costa%20Rica?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:48:37.8844|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Sending HTTP request GET https://restcountries.com/v3.1/name/Costa%20Rica?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:48:38.6275|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Received HTTP response headers after 738.2198ms - 200
+2025-10-28 20:48:38.6357|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|End processing HTTP request after 752.868ms - 200
+2025-10-28 20:48:49.4250|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|Start processing HTTP request GET https://restcountries.com/v3.1/name/Netherlands?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:48:49.4250|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Sending HTTP request GET https://restcountries.com/v3.1/name/Netherlands?fullText=true&fields=name,population,capital,languages,area,timezones,maps,currencies
+2025-10-28 20:48:49.6555|INFO|System.Net.Http.HttpClient.ICountryService.ClientHandler|Received HTTP response headers after 224.842ms - 200
+2025-10-28 20:48:49.6555|INFO|System.Net.Http.HttpClient.ICountryService.LogicalHandler|End processing HTTP request after 232.4657ms - 200

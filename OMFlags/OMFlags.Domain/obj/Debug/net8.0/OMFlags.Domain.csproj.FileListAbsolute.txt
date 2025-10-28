@@ -1,0 +1,12 @@
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\bin\Debug\net8.0\OMFlags.Domain.deps.json
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\bin\Debug\net8.0\OMFlags.Domain.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\bin\Debug\net8.0\OMFlags.Domain.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\OMFlags.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\OMFlags.Domain.AssemblyInfoInputs.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\OMFlags.Domain.AssemblyInfo.cs
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\OMFlags.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\OMFlags.Domain.sourcelink.json
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\OMFlags.Domain.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\refint\OMFlags.Domain.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\OMFlags.Domain.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Domain\obj\Debug\net8.0\ref\OMFlags.Domain.dll

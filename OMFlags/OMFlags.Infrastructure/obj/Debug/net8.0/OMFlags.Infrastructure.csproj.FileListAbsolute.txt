@@ -1,0 +1,16 @@
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\bin\Debug\net8.0\OMFlags.Infrastructure.deps.json
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\bin\Debug\net8.0\OMFlags.Infrastructure.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\bin\Debug\net8.0\OMFlags.Infrastructure.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\bin\Debug\net8.0\OMFlags.Domain.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\bin\Debug\net8.0\OMFlags.Domain.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.AssemblyInfo.cs
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.sourcelink.json
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags..4B0FA25D.Up2Date
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\refint\OMFlags.Infrastructure.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\OMFlags.Infrastructure.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Infrastructure\obj\Debug\net8.0\ref\OMFlags.Infrastructure.dll

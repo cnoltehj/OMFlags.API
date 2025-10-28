@@ -1,0 +1,87 @@
+﻿version: "3.9"
+
+services:
+  omflags.api:
+    build:
+      context: .
+      dockerfile: OMFlags.API/Dockerfile       
+    ports:
+      - "7020:80"                               # HTTP  -> http://localhost:7020
+      - "7021:443"                              # HTTPS -> https://localhost:7021
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      # Serve both HTTP & HTTPS inside the container
+      ASPNETCORE_URLS: "http://+:80;https://+:443"
+
+      # === CORS ===
+      Cors__AllowedOrigins: "https://localhost:7245,http://localhost:7245"
+
+  
+      Backend__BaseUrl: "https://localhost:7021/"
+
+ 
+      ASPNETCORE_Kestrel__Certificates__Default__Path: "/https/aspnetapp.pfx"
+      ASPNETCORE_Kestrel__Certificates__Default__Password: "${ASPNETCORE_HTTPS_PASSWORD}"
+
+
+    volumes:
+      # Mount local dev certs into the container
+      - ~/.aspnet/https:/https:ro
+
+    depends_on:
+      # - mssql          
+      # - rabbitmq     
+      - wait.mssql     
+    restart: unless-stopped
+    networks:
+      - omflags-net
+
+  # ---- Optional: SQL Server 2022 for local dev ----
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "!Passw0rd"
+      ACCEPT_EULA: "Y"
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P \"$SA_PASSWORD\" -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      retries: 30
+      start_period: 20s
+    networks:
+      - omflags-net
+    restart: unless-stopped
+    volumes:
+      - mssql_data:/var/opt/mssql
+
+  sqltools:
+    image: mcr.microsoft.com/mssql-tools
+    depends_on:
+      mssql:
+        condition: service_healthy
+    volumes:
+      - ./init.sql:/tmp/init.sql
+    entrypoint: >
+      /bin/bash -c "
+      echo 'Waiting a moment for SQL...' &&
+      sleep 5 &&
+      /opt/mssql-tools/bin/sqlcmd -S mssql -U sa -P !Passw0rd -i /tmp/init.sql &&
+      echo 'Init complete.'"
+    networks:
+      - omflags-net
+    restart: "no"
+
+  wait.mssql:
+    image: alpine:3.20
+    depends_on:
+      mssql:
+        condition: service_started
+    entrypoint: ["/bin/sh","-c"]
+    command: >
+      "echo 'Waiting for MSSQL 1433...' &&
+       until nc -z mssql 1433; do sleep 1; done &&
+       echo 'MSSQL ready.'"
+    networks:
+      - omflags-net
+    restart: "no"

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OMFlags.Domain.Entities
 {
-    public sealed class RawCountryDetails
+    public class RawCountryDetails
     {
         public RawName? name { get; set; }
         public List<string>? capital { get; set; }
@@ -19,7 +19,7 @@ namespace OMFlags.Domain.Entities
         public RawFlags? flags { get; set; }
     }
 
-    public sealed class RawName
+    public class RawName
     {
         public string? common { get; set; }
         public string? official { get; set; }

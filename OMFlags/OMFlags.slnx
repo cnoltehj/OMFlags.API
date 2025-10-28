@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="OMFlags.API/OMFlags.API.csproj" />
+  <Project Path="OMFlags.Application/OMFlags.Application.csproj" Id="da72fd34-d3c5-456e-b3fe-ad441357ed3c" />
+  <Project Path="OMFlags.Domain/OMFlags.Domain.csproj" Id="eb936301-00e7-4b42-b36f-4f5579ccf34b" />
+  <Project Path="OMFlags.Infrastructure/OMFlags.Infrastructure.csproj" Id="8d06f4f7-160f-4b5c-a26f-a10006c52e22" />
+  <Project Path="OMFlags.Test.Unit/OMFlags.Test.Unit.csproj" Id="7c50e7f6-55e2-43af-9f0f-b9b871f2c04c" />
+  <Project Path="OMFlags.Tests.Integration/OMFlags.Tests.Integration.csproj" Id="75f277a7-3187-4fe2-b1ac-7e69f771380d" />
+</Solution>

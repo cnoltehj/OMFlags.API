@@ -1,0 +1,6 @@
+{
+  "OMFlags.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\cnolt\\OneDrive\\Desktop\\InterviewTask\\OMFlags\\OMFlags.API\\OMFlags\\OMFlags.API",
+  "OMFlags.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\cnolt\\OneDrive\\Desktop\\InterviewTask\\OMFlags\\OMFlags.API\\OMFlags\\OMFlags.Application",
+  "OMFlags.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\cnolt\\OneDrive\\Desktop\\InterviewTask\\OMFlags\\OMFlags.API\\OMFlags\\OMFlags.Domain",
+  "OMFlags.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\cnolt\\OneDrive\\Desktop\\InterviewTask\\OMFlags\\OMFlags.API\\OMFlags\\OMFlags.Infrastructure"
+}

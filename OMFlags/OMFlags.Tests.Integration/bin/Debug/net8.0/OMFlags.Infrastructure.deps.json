@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OMFlags.Infrastructure/1.0.0": {
+        "dependencies": {
+          "OMFlags.Domain": "1.0.0"
+        },
+        "runtime": {
+          "OMFlags.Infrastructure.dll": {}
+        }
+      },
+      "OMFlags.Domain/1.0.0": {
+        "runtime": {
+          "OMFlags.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OMFlags.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OMFlags.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

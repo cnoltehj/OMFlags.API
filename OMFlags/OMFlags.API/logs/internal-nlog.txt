@@ -1,0 +1,18 @@
+2025-10-28 20:46:06.7038 Info Loading assembly name: NLog.API.AspNetCore
+2025-10-28 20:46:06.7623 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.API.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.API.AspNetCore, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.API.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext, RuntimeAssembly requestingAssembly, Boolean throwOnFileNotFound)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(String assemblyName)
+   at NLog.Config.AssemblyExtensionLoader.LoadAssemblyFromName(ConfigurationItemFactory factory, String assemblyName, String itemNamePrefix)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssemblyName(String assemblyName, String itemNamePrefix)
+   --- End of inner exception stack trace ---
+2025-10-28 20:46:08.3673 Info Registered target NLog.Targets.FileTarget(Name=OMFlages.Api-All)
+2025-10-28 20:46:08.3791 Info Registered target NLog.Targets.FileTarget(Name=OMFlages.Api-Trace)
+2025-10-28 20:46:08.3883 Info Registered target NLog.Targets.FileTarget(Name=OMFlages.Api-Info)
+2025-10-28 20:46:08.3883 Info Registered target NLog.Targets.FileTarget(Name=OMFlages.Api-Error)
+2025-10-28 20:46:08.4102 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logs.Api-All' not found for logging rule: *.
+2025-10-28 20:46:08.4160 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.5.4631. Product version: 6.0.5+a023270f66a9445456a70c06668acabe7179c723. GlobalAssemblyCache: False
+2025-10-28 20:46:08.5402 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: OMFlages.Api-All
+2025-10-28 20:46:08.5940 Info Configuration initialized: TargetNames=OMFlages.Api-Trace, OMFlages.Api-Info, OMFlages.Api-Error, ConfigItems=98, AutoReload=true, FilePath=C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.API\bin\Debug\net8.0\nlog.config

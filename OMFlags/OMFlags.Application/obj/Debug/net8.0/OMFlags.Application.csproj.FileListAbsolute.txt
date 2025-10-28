@@ -1,0 +1,16 @@
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\bin\Debug\net8.0\OMFlags.Application.deps.json
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\bin\Debug\net8.0\OMFlags.Application.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\bin\Debug\net8.0\OMFlags.Application.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\bin\Debug\net8.0\OMFlags.Domain.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\bin\Debug\net8.0\OMFlags.Domain.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.csproj.AssemblyReference.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.AssemblyInfoInputs.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.AssemblyInfo.cs
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.csproj.CoreCompileInputs.cache
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.sourcelink.json
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags..18F212DA.Up2Date
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\refint\OMFlags.Application.dll
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\OMFlags.Application.pdb
+C:\Users\cnolt\OneDrive\Desktop\InterviewTask\OMFlags\OMFlags.API\OMFlags\OMFlags.Application\obj\Debug\net8.0\ref\OMFlags.Application.dll

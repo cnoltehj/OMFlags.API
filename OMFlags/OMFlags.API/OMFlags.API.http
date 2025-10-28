@@ -1,0 +1,6 @@
+@OMFlags.API_HostAddress = http://localhost:5177
+
+GET {{OMFlags.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

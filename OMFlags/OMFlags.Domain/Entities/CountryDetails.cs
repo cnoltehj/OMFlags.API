@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OMFlags.Domain.Entities
 {
-    public sealed class CountryDetails
+    public class CountryDetails
     {
         public string Name { get; set; } = "";
         public string? FlagPng { get; set; }
@@ -20,32 +20,32 @@ namespace OMFlags.Domain.Entities
         public string? OpenStreetMaps { get; set; }
     }
 
-    public sealed class Currency
+    public class Currency
     {
         public string Code { get; set; } = "";
         public string Name { get; set; } = "";
         public string? Symbol { get; set; }
     }
 
-    public sealed class RawCountryName 
+    public class RawCountryName 
     { 
         public string? common { get; set; } 
         public string? official { get; set; } 
     }
 
-    public sealed class RawFlags 
+    public class RawFlags 
     { 
         public string? png { get; set; } 
         public string? svg { get; set; } 
     }
 
-    public sealed class RawMaps 
+    public class RawMaps 
     { 
         public string? googleMaps { get; set; } 
         public string? openStreetMaps { get; set; } 
     }
 
-    public sealed class RawCurrency 
+    public class RawCurrency 
     { 
         public string? name { get; set; } 
         public string? symbol { get; set; } 

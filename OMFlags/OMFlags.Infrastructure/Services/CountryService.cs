@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace OMFlags.Infrastructure.Services
 {
-    public sealed class CountryService : ICountryService
+    public class CountryService : ICountryService
     {
         private readonly HttpClient _http;
         private static readonly JsonSerializerOptions JsonOpts =

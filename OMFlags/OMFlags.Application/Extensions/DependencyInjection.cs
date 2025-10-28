@@ -8,7 +8,6 @@ namespace OMFlags.Application.Extensions
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            // Ensure you have at least one handler in this assembly so it can scan something.
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             return services;
         }
