@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using OMFlags.API.Client;
+using OMFlags.API.Models.Common;
 using OMFlags.Domain.Contracts;
 using OMFlags.Infrastructure.Services;
 
@@ -22,11 +23,14 @@ namespace OMFlags.API
         {
             services.AddControllers();
 
+            AppSettings settings = new AppSettings();
+            Configuration.Bind(settings);
+
             // CORS: allow Blazor dev origin(s)
             services.AddCors(opt =>
             {
                 opt.AddPolicy(CorsPolicyName, p => p
-                    .WithOrigins("https://localhost:7245", "http://localhost:7245")
+                    .WithOrigins(settings.UpstreamUrl.BaseUrlSSl, settings.UpstreamUrl.BaseUrl)
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                 // .AllowCredentials() // only if send cookies
@@ -35,15 +39,16 @@ namespace OMFlags.API
 
             services.AddHttpClient<ApiClientAsync>(client =>
             {
-                var baseUrl = Configuration["Backend:BaseUrl"] ?? "https://localhost:7020/";
+                var baseUrl = Configuration["Backend:BaseUrl"] ?? settings.LocalUrl.BaseUrl;
                 client.BaseAddress = new Uri(baseUrl);
                 client.Timeout = TimeSpan.FromSeconds(30);
             });
             services.AddTransient<IApiClientAsync>(sp => sp.GetRequiredService<ApiClientAsync>());
 
+
             services.AddHttpClient<ICountryService, CountryService>(client =>
             {
-                client.BaseAddress = new Uri("https://restcountries.com/v3.1/");
+                client.BaseAddress = new Uri( settings.DownstreamUrl.BaseUrl);
                 client.Timeout = TimeSpan.FromSeconds(30);
             });
 
